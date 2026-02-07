@@ -1,0 +1,3 @@
+zap:
+  scan_type: baseline
+  risk_threshold: medium
