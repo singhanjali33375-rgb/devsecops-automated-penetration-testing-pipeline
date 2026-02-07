@@ -1,0 +1,3 @@
+scan_scope:
+  - application-endpoints
+  - api-services
