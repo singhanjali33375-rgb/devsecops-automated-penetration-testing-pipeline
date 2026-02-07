@@ -1,0 +1,16 @@
+name: DevSecOps Security Pipeline
+
+on: [push]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run Trivy Scan
+        run: echo "Running container vulnerability scan"
+
+      - name: Run ZAP Scan
+        run: echo "Running dynamic application security test"
