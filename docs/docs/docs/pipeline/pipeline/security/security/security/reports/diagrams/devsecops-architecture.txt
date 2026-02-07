@@ -1,0 +1,1 @@
+CI/CD Pipeline → Security Scans → Risk Evaluation → Deployment
