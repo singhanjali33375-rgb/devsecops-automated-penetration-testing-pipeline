@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Security Scan') {
+            steps {
+                echo 'Running automated security scans'
+            }
+        }
+    }
+}
